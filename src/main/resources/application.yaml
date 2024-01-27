@@ -1,0 +1,16 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: ch05-consumer-hystrix
+  cloud:
+    circuitbreaker:
+      hystrix:
+        enabled: true
+
+
+#??
+#feign:
+#  circuitbreaker:
+#    enabled: true
